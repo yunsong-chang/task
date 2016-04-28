@@ -20,4 +20,4 @@ Android_USB_Driver_Q_9.16.1.28_2016_04_01_All_in_One_Setup.rar
         ALCATEL Wireless HS-USB Ethernet Adapter 9091
 ```
 
-![9091](./pic/device_manager_9091.png)
+![9091](pic/device_manager_9091.png)
