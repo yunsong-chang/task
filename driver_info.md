@@ -22,5 +22,5 @@ Android_USB_Driver_Q_9.16.1.28_2016_04_01_All_in_One_Setup.rar
 
 ![all_in_one](pic/all_in_one.png)
 ![9091](pic/device_manager_9091.png)
-![9091_901D](pic/device_manager_9091.png)
+![9091_901D](pic/9091_901D.png)
 
