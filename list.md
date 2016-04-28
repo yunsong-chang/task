@@ -5,7 +5,7 @@ PID: 9008 Diag   900E Diag</br>
 
 手机常用apk：360安全，微信
 
-![lsusb](./pic/lsusb.png)
+![lsusb](./pic/lsusb-qc.png)
 
 
 修改后：lsusb</br>
