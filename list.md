@@ -1,3 +1,3 @@
-20160428
-VID: 1BBB(TCL)   05C6 (Qualcomm)
-PID: 9008 Diag   900E Diag
+20160428</br>
+VID: 1BBB(TCL)   05C6 (Qualcomm)</br>
+PID: 9008 Diag   900E Diag</br>
