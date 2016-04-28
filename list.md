@@ -6,3 +6,7 @@ PID: 9008 Diag   900E Diag</br>
 手机常用apk：360安全，微信
 
 ![lsusb](./pic/lsusb.png)
+
+
+修改后：lsusb</br>
+Bus 002 Device 014: ID 1bbb:9091 T & A Mobile Phones
