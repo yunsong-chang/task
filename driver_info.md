@@ -1,4 +1,3 @@
-111111
 ```
 All_in_One是公司开发的手机驱动
 u2: lsbusb
@@ -19,4 +18,6 @@ Android_USB_Driver_Q_9.16.1.28_2016_04_01_All_in_One_Setup.rar
     还有一个问号要手动update driver, 因为以前装过旧的驱动
     Network adapters
         ALCATEL Wireless HS-USB Ethernet Adapter 9091
+
+![9091](pic/device_manager_9091.png)
 ```
