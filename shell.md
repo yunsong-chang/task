@@ -1,5 +1,6 @@
 ```
 ll `cat /etc/shells`
+ll `tail -n +2 /etc/shells`  ;; line 2 and after
 
 if :; then echo "always true"; fi
 if /bin/true; then echo "always true"; fi
