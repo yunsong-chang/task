@@ -1,10 +1,10 @@
-ll `cat /etc/shells`
-ll `tail -n +2 /etc/shells`  ;; line 2 and after
+ll `cat /etc/shells`  
+ll `tail -n +2 /etc/shells`  ;; line 2 and after  
 
-if :; then echo "always true"; fi
-if /bin/true; then echo "always true"; fi
-if /bin/false; then echo "always true"; fi
-if ./a.out; then echo "always true"; fi
+if :; then echo "always true"; fi  
+if /bin/true; then echo "always true"; fi  
+if /bin/false; then echo "always true"; fi  
+if ./a.out; then echo "always true"; fi  
 
 # regular express 不贪婪
 <html><head><title>Hello World</title>
