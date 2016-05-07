@@ -1,4 +1,3 @@
-```
 ll `cat /etc/shells`
 ll `tail -n +2 /etc/shells`  ;; line 2 and after
 
@@ -16,5 +15,3 @@ sed 's/<.*>//g' testfile
 sed 's/<[^>]*>//g' testfile
 Hello World
 Welcome to the world of regexp!
-
-```
