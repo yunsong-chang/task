@@ -1,4 +1,10 @@
+[TOC]
+
 # Linux命令
+
+## 命令组合
+    ll `cat /etc/shells`
+    ll `tail -n +2 /etc/shells`  ;; line 2 and after
 ## 只显示目录
     ls -F | grep /$    # -F使得ls将文件分类，通过在文件后面加一些标记来实现
     ls -F | grep /
@@ -15,13 +21,12 @@
     ls -p | grep [^/]$  # -p使得ls命令在目录后面加斜杠
     find . ! -name . -prune -type f   # 这个命令不会很好排序文件
 
-ll `cat /etc/shells`
-ll `tail -n +2 /etc/shells`  ;; line 2 and after
 
-if :; then echo "always true"; fi
-if /bin/true; then echo "always true"; fi
-if /bin/false; then echo "always true"; fi
-if ./a.out; then echo "always true"; fi
+# Shell Script
+    if :; then echo "always true"; fi
+    if /bin/true; then echo "always true"; fi
+    if /bin/false; then echo "always true"; fi
+    if ./a.out; then echo "always true"; fi
 
 # regular express 不贪婪
     <html><head><title>Hello World</title>
