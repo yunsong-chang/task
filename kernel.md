@@ -8,6 +8,10 @@
         Git
             git clone后，直接checkout失败
             需要先git commit -a -m 'update' 才可
+    2.3 Compile
+            make oldconfig
+        ldk上关于make oldconfig作用一笔带过，网上查了下，大概如下:
+   备份当前.config文件为.config.old，如若make config/menuconfig设置不当可用于恢复先前的.config
 
 
 
