@@ -32,7 +32,7 @@
 ### 2.4 install
 [ubuntu编译内核及刷内核](http://www.cnblogs.com/hongzg1982/articles/2163620.html)</br>
 [grub的引导顺序](http://blog.sina.com.cn/s/blog_4438cd290101a5zb.html)</br>
-[initrd 百度百科](baike.baidu.com)
+[initrd 百度百科](http://baike.baidu.com)
 
     grub
         在早期的一些Ubuntu版本下，修改grub的引导顺序的方法如下：
