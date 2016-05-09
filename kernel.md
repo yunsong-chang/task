@@ -13,9 +13,14 @@
 ### 2.3 Compile
 [make oldconfig](http://blog.csdn.net/david_xtd/article/details/7609529)
 
-        ldk上关于make oldconfig作用一笔带过，网上查了下，大概如下:
-        备份当前.config文件为.config.old，如若用make config/menuconfig设置不当可用于恢复先前的.config
-        make oldconfig和make menuconfig都能将原来的.config文件保存为.config.old文件
+    ldk上关于make oldconfig作用一笔带过，网上查了下，大概如下:
+    备份当前.config文件为.config.old，如若用make config/menuconfig设置不当可用于恢复先前的.config
+    make oldconfig和make menuconfig都能将原来的.config文件保存为.config.old文件
+
+[ncurses](http://www.oschina.net/p/ncurses)
+
+    sudo apt-get install libncurses5-dev
+    make menuconfig
 
 
 
