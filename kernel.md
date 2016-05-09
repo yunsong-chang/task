@@ -3,10 +3,8 @@
     2.1 Get Source code
         $ wget https://www.kernel.org/pub/linux/kernel/v3.0/linux-3.1.5.tar.xz
         $ wget https://www.kernel.org/pub/linux/kernel/v3.0/linux-3.1.5.tar.sign
-* [PGP signature](https://www.kernel.org/category/signatures.html)
-* [RC: Release](https://www.kernel.org/category/releases.html)
-
-
+[PGP signature](https://www.kernel.org/category/signatures.html)</br>
+[RC: Release](https://www.kernel.org/category/releases.html)</br>
         Git
             git clone后，直接checkout失败
             需要先git commit -a -m 'update' 才可
