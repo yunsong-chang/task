@@ -12,6 +12,14 @@
     ls -d */
     ls -ld */
 
+## ls
+[ls](http://linux.vbird.org/linux_basic/0220filemanager.php#ls)
+    -d -S -F -r -R
+    ls -d
+    ls -d *
+    ls -d */
+    ls */
+
 ## 只显示文件
     ls -F | grep [^\/]$  # 注意行尾匹配符号$不可少
     ls -F | grep [^/]$
