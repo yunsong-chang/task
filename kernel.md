@@ -32,7 +32,8 @@
 ### 2.4 install
 [ubuntu编译内核及刷内核](http://www.cnblogs.com/hongzg1982/articles/2163620.html)</br>
 [grub的引导顺序](http://blog.sina.com.cn/s/blog_4438cd290101a5zb.html)</br>
-[initrd 百度百科](http://baike.baidu.com)
+[initrd 百度百科](http://baike.baidu.com)</br>
+[mkinitrd](http://blog.csdn.net/hilaochen/article/details/8222759)</br>
 
     grub
         在早期的一些Ubuntu版本下，修改grub的引导顺序的方法如下：
@@ -50,6 +51,7 @@
     * mkinitramfs -o initrd.img-2.6.32-my-test 2.6.32
         * 2.6.32是/lib/modules中的目录
         * 在当前目录下生产initrd.img
+        * ubuntu 找不到命令mkinitrd，取而代之的是mkinitramfs
     *
 
 
