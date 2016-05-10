@@ -7,3 +7,12 @@
     解    释 电芯涉及安全方面进行审核      目    的 以质量为主
 
 [IEEE1725标准简介](http://www.elecfans.com/yuanqijian/dianchi/dianchishengchang/20091218137935.html)
+
+# task
+    掌握充电电流、电压，及温度
+
+# low power mode 休眠
+    power safe mode 三者是同一个东西
+    cat /sys/kernel/debug
+        RPM Mode:vmin
+            count: 0  (不是0就是休眠)
