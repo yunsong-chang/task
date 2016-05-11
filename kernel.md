@@ -53,7 +53,8 @@
         ubuntu 找不到命令mkinitrd，取而代之的是mkinitramfs
 
 ## 2.4 内核开发的特点
-[可重入函数](http://baike.baidu.com/link?url=ug_SlGc0LNPy5LmDUMVjG_4AAKBuqaWIyXlc-8DZmbaT8_O0N_RYuim7iv-JGcmixi1IvKzssEFaXprNQKI4uq)
+
+### [可重入函数](http://baike.baidu.com/link?url=ug_SlGc0LNPy5LmDUMVjG_4AAKBuqaWIyXlc-8DZmbaT8_O0N_RYuim7iv-JGcmixi1IvKzssEFaXprNQKI4uq)
 
     可重入函数 reentrant
         @h: 一个可以被多个任务调用的函数(过程)，任务在调用时不必担心数据是否会出错@
@@ -90,3 +91,5 @@
 
 
 
+
+### [QEMU](http://linux.chinaunix.net/docs/2007-10-30/4645.shtml)
