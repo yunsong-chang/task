@@ -1,3 +1,8 @@
+
+
+# [高通msm8994启动流程简介](http://blog.csdn.net/finewind/article/details/46469645)
+![开机流程](./pic/msm8994开机流程.png)
+
 [F200引导装载程序 (Bootloader) & 术语]
 [123](!http://bbs.gfan.com/android-5883867-1-1.html)
 
@@ -9,6 +14,3 @@ The boot loader has to perform the following tasks:
 ·       Switch to the work space that the kernel will workon
 ·       Release itself and transfer control to thekernel
 At present,the popular bootloaders on the market are: redboot, U-boot, Blob, vivi, xboot,little kernel, etc.  Many ARM embeddedsystems are using U-boot as the bootloader for their development boards.  Recently, the Little Kernel(LK) has beenadopted by Qualcomm, TI, Samsung, Telechips, etc.
-
-# [高通msm8994启动流程简介](http://blog.csdn.net/finewind/article/details/46469645)
-![开机流程](./pic/msm8994开机流程.png)
