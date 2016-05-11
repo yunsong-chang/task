@@ -13,7 +13,7 @@
 
 # low power mode 休眠
     power safe mode 三者是同一个东西
-    cat /sys/kernel/debug
+    cat /sys/kernel/debug/rpm_stats
         RPM Mode:vmin
             count: 0  (不是0就是休眠)
 # 电池ID
@@ -26,3 +26,5 @@
     行货且正品的电池带芯片的 芯片起到充电或放电时候保护电池
     另外也作为电池的相关信息的存储体 例如电池充放电次数 以及电池的信息等
     你说的ID就是存储在芯片里面的一串代码
+
+![Android电源管理的作用](http://book.51cto.com/art/201502/466463.htm)
