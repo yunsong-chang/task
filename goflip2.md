@@ -16,6 +16,11 @@
     cat /sys/kernel/debug/rpm_stats
         RPM Mode:vmin
             count: 0  (不是0就是休眠)
+    case 02455877
+        lower power mode: 手机连USB不能睡眠
+        低功耗模式下有几个子模式：SWFI/Retention/APCR/Standalone power collapse/Power collapse
+        check vmin: vddmin 睡一次加一次
+              vlow: CPU进不了这个电压
 # 电池ID
     ID是如何实现的：是工程师在设计的时侯实现的，主要是防盗版（外国的品牌喜欢弄这些），
     里面的代码需要解码，码片烧好才可安在线路板上用，
@@ -28,3 +33,5 @@
     你说的ID就是存储在芯片里面的一串代码
 
 # [Android电源管理的作用](http://book.51cto.com/art/201502/466463.htm)
+
+# [功耗优化方法 ](http://blog.sina.com.cn/s/blog_40d475e90102vnh0.html)
